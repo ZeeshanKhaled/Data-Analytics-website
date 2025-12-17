@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact us | Data Analytics</title>
+  <meta name="description" content="Contact Data Analytics using our form or social links." />
+  <link rel="stylesheet" href="Styles/Styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Go to homepage">
+        <img class="brand-logo" src="Images/Logo.png" alt="Data Analytics logo" />
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+          Menu
+        </button>
+
+        <ul class="nav-list" id="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="news.html">News and resources</a></li>
+          <li><a class="nav-link" href="tools.html">Mathematical tools</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="references.html">References Page</a></li>
+          <li><a class="nav-link is-active" href="contact.html" aria-current="page">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <form class="search" role="search" aria-label="Site search (visual only)">
+          <label class="sr-only" for="site-search">Search</label>
+          <input id="site-search" name="q" type="search" placeholder="Search" autocomplete="off" />
+        </form>
+
+        <img class="profile-icon" src="Images/Icons/profile.png" alt="" aria-hidden="true" />
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <h1 class="page-title">Contact us</h1>
+
+    <section class="contact-layout" aria-label="Contact page content">
+
+      <!-- Left side -->
+      <div class="contact-left">
+        <div class="contact-box">
+          <p>
+            We are here for you and we are here to help if you need to contact us please contact us
+            either here or via any of the links below
+          </p>
+        </div>
+
+        <!-- FIX: section is allowed to have aria-label, div is not -->
+        <section class="contact-links" aria-label="Contact links">
+          <p>Mohammed.khaled2@bcu.mail.ac.uk</p>
+          <p>@DataAnalyticsInsta</p>
+          <p>@DataAnalyticsTT</p>
+          <p>@DataAnalyticsFB</p>
+          <p>@DataAnalyticsX</p>
+        </section>
+      </div>
+
+      <!-- Right side -->
+      <div class="contact-right">
+        <form class="contact-form" action="#" method="post" aria-label="Contact form">
+
+          <label class="sr-only" for="full-name">Full name</label>
+          <input
+            id="full-name"
+            name="full-name"
+            type="text"
+            placeholder="Please enter your full name"
+          />
+
+          <label class="sr-only" for="phone-number">Phone number</label>
+          <input
+            id="phone-number"
+            name="phone-number"
+            type="text"
+            placeholder="Please enter your phone number"
+          />
+
+          <label class="sr-only" for="email">Email address</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Please enter your email address"
+          />
+
+          <label class="sr-only" for="message">Reason for contacting us</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Please enter your reason for contacting us"
+          ></textarea>
+
+          <button class="contact-btn" type="submit">Confirm</button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">© <span id="year"></span> Data Analytics LLC.</p>
+  </footer>
+
+  <script src="Script/Script.js"></script>
+</body>
+</html>
