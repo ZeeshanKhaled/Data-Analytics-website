@@ -98,4 +98,4 @@ Created as a data analytics themed website project to demonstrate web design, co
 
 ## Licence
 
-This project is for educational and portfolio use. Add a licence file if the project is made public for reuse.
+This project is for educational and portfolio use.
